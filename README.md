@@ -26,3 +26,19 @@ Collect Red and Green Spiders in respective boxes for increasing score.
 Spiders falling block the movement.
 
 Game over when spider falls on gun.
+
+
+Dependencies-
++++++++++++++
+
+Check if you have OpenGL and OpenAl support.
+
+Run the following commands.
+
+For OpenGL-
+sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev
+sudo apt-get install binutils-gold
+
+For OpenAL-
+sudo apt-get install libopenal-dev libalut0 libalut-dev
+
